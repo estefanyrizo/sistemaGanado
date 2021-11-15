@@ -752,6 +752,28 @@ namespace sistemaGanado
             return -1;
         }
 
+        static void AgregarMedicina(Medicina[] med)
+        {
+            for (int i=0; i<med.Length; i++)
+            {
+                string nombre = null;
+                float precio = 0.00f;
+                string fechaAplicac = null;
+                string fechaVencimiento = null;
+
+                Pedir("Escriba el nomre del farmaco", ref nombre);
+                Pedir("Escriba el precio del farmaco", ref precio);
+                Pedir("Fecha de aplicacion del farmaco", ref fechaAplicac);
+                Pedir("Fecha de destruccion del farmaco", ref fechaVencimiento);
+            }
+        }
+
+        static void Pedir(string m, ref float x)
+        {
+            Console.Write("{0} ", m);
+            x = float.Parse(Console.ReadLine());
+        }
+
         static void Ejecutar()
         {
 
