@@ -18,7 +18,7 @@ namespace sistemaGanado
         public string NombreAlimento { get => nombreAlimento; set => nombreAlimento = value; }
         public float PorcionPorGanado { get => porcionPorGanado; set => porcionPorGanado = value; }
 
-        static void DatosAlimento(Alimentacion alimento)
+        public void DatosAlimento()
         {
             Console.WriteLine($"Nombre: {alimento.nombreAlimento}");
             Console.WriteLine($"Porcion por cabeza: {alimento.porcionPorGanado}");

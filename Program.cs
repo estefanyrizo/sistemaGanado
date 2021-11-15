@@ -754,17 +754,51 @@ namespace sistemaGanado
 
         static void AgregarMedicina(Medicina[] med)
         {
-            for (int i=0; i<med.Length; i++)
+            for (int i = 0; i < med.Length; i++)
             {
-                string nombre = null;
+                string nombre = null, fechaAplicac = null, fechaVencimiento = null, contenidoProducto = null, presentacion = null;
                 float precio = 0.00f;
-                string fechaAplicac = null;
-                string fechaVencimiento = null;
+                int dosis = 0, via = 0;
 
                 Pedir("Escriba el nomre del farmaco", ref nombre);
                 Pedir("Escriba el precio del farmaco", ref precio);
                 Pedir("Fecha de aplicacion del farmaco", ref fechaAplicac);
                 Pedir("Fecha de destruccion del farmaco", ref fechaVencimiento);
+                Pedir("Presentacion del medicamento: ", ref presentacion);
+                Pedir("Via de aplicacion: ", ref via);
+                Pedir("Contenido del producto: ", ref contenidoProducto);
+                Pedir("Dosis aplicada al animal: ", ref dosis);
+
+                med[i] = new Medicina(nombre, precio, fechaAplicac, fechaVencimiento);
+                med[i].AgregarDetallePresentacion(presentacion, contenidoProducto, via);
+                med[i].AgregarDetalleMedicina(dosis);
+            }
+        }
+
+        static void  ListarMedicinas(Medicina[] med)
+        {
+            Console.WriteLine("Medicinas aplicadas al animal: \n");
+            for (int i = 0; i < med.Length; i++)
+            {
+                med[i].ListarDatos();
+            }
+        }
+
+        static void AgregarAlimentacion()
+        {
+            string nombreAlimento = null;
+            int porcion = 0;
+
+            Pedir("Ingrese el nombre del alimento: ", ref nombreAlimento);
+            Pedir("Ingrese la porcion por animal: ", ref porcion);
+        }
+
+        static void ListarAlimentos(Alimentacion[] alim)
+        {
+            Console.WriteLine("Alimentos dados a los animales: \n");
+            for (int i = 0; i < alim.Length; i++)
+            {
+                alim[i].DatosAlimento();
             }
         }
 
