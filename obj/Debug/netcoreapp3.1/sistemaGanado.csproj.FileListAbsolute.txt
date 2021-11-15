@@ -1,0 +1,13 @@
+C:\Users\estef\source\repos\sistemaGanado\bin\Debug\netcoreapp3.1\sistemaGanado.exe
+C:\Users\estef\source\repos\sistemaGanado\bin\Debug\netcoreapp3.1\sistemaGanado.deps.json
+C:\Users\estef\source\repos\sistemaGanado\bin\Debug\netcoreapp3.1\sistemaGanado.runtimeconfig.json
+C:\Users\estef\source\repos\sistemaGanado\bin\Debug\netcoreapp3.1\sistemaGanado.runtimeconfig.dev.json
+C:\Users\estef\source\repos\sistemaGanado\bin\Debug\netcoreapp3.1\sistemaGanado.dll
+C:\Users\estef\source\repos\sistemaGanado\bin\Debug\netcoreapp3.1\sistemaGanado.pdb
+C:\Users\estef\source\repos\sistemaGanado\obj\Debug\netcoreapp3.1\sistemaGanado.csprojAssemblyReference.cache
+C:\Users\estef\source\repos\sistemaGanado\obj\Debug\netcoreapp3.1\sistemaGanado.AssemblyInfoInputs.cache
+C:\Users\estef\source\repos\sistemaGanado\obj\Debug\netcoreapp3.1\sistemaGanado.AssemblyInfo.cs
+C:\Users\estef\source\repos\sistemaGanado\obj\Debug\netcoreapp3.1\sistemaGanado.csproj.CoreCompileInputs.cache
+C:\Users\estef\source\repos\sistemaGanado\obj\Debug\netcoreapp3.1\sistemaGanado.dll
+C:\Users\estef\source\repos\sistemaGanado\obj\Debug\netcoreapp3.1\sistemaGanado.pdb
+C:\Users\estef\source\repos\sistemaGanado\obj\Debug\netcoreapp3.1\sistemaGanado.genruntimeconfig.cache
